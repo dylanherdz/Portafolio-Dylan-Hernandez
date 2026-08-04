@@ -1,0 +1,24 @@
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+}
+main{
+    background-color: #02062e;
+    height: calc(100vh - 100px);
+    max-height: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.info{
+    color: rgb(72, 102, 187);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
